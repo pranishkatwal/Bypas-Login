@@ -32,16 +32,19 @@ chrome.exe --remote-debugging-port={remote port number} --user-data-dir="{remote
 On the above commands replace {remote port number} with 4-digit port number which you hadn’t used for any other application which may be anything like 1234, 4533,3422 and replace {remote-directory} with a new directory to save the instance of the chrome driver. Make a directory in any of the available drive and give the path in {remote-directory}.
 
 •	Execute the above command in cmd or terminal a new chrome browser will get displayed.
+![](cmd.png)
  
 In my case 9291 is the remote debugging port and D:/TestChrome is the new directory.
 When we execute the above command, the new chrome driver will be displayed 
+
+![](google.png)
  
 As I have already signed up with my google account but after executing the command a new google chrome will appear and you need to login with google account or the account in which you are going to perform the test. Once you have completed logging to the desired account further you don’t need to login to the account each time.
 Now let’s jump into the Ruby code………
  
 
 Code Description:
-
+![](code.png)
 Line1: The selenium web driver is imported to perform an automation.
 
 Line2: The path of the selenium web driver is set using the above code 
